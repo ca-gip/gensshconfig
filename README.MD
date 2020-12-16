@@ -1,4 +1,4 @@
-# gen-ssh-config
+# gensshconfig
 
 Generate a *config* file based on `Ansible` inventories
 
