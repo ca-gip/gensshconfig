@@ -54,13 +54,13 @@ inventories
 #### You can check what the config will look like with
 
 ```bash
-gensshconfig --user $USER_BASTION --bastion $IP_BASTION --inventory ~/Project/ansible-kube/inventories/os
+gensshconfig --user $USER_BASTION --bastion $IP_BASTION --inventory ~/Projects/ansible-kube/inventories/os
 ```
 
 #### Alternatively save it 
 
 ```bash
-gensshconfig --user $USER_BASTION --bastion $IP_BASTION --inventory ~/Project/ansible-kube/inventories/os > ~/.ssh/k8s_config
+gensshconfig --user $USER_BASTION --bastion $IP_BASTION --inventory ~/Projects/ansible-kube/inventories/os > ~/.ssh/k8s_config
 ```
 
 If you do not want to overwrite the default config like in the above exmaple, do not forget to include the following line in your main `config` file
