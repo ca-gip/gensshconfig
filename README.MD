@@ -7,7 +7,7 @@ Generate a *config* file based on `Ansible` inventories
 ### Intallation
 
 ```bash
-curl -ssf -L https://raw.githubusercontent.com/ca-gip/gensshconfig/master/install.sh | sudo sh
+curl -ssf -L https://raw.githubusercontent.com/ca-gip/gensshconfig/master/install.sh | sh
 ```
 
 ### (Alternative) Build the binary
